@@ -1,0 +1,40 @@
+{
+  "options": {
+    "web-desktop": {
+      "configID": "a1c489",
+      "services": [
+        {
+          "service_id": "235",
+          "service_component_name": "service-analytics",
+          "builder": "C:\\Users\\Admin\\.CocosCreator\\.service\\analytics\\builder\\builder.js",
+          "enable": false,
+          "params": {}
+        }
+      ]
+    },
+    "web-mobile": {
+      "configID": "a1c489",
+      "services": [
+        {
+          "service_id": "235",
+          "service_component_name": "service-analytics",
+          "builder": "C:\\Users\\Admin\\.CocosCreator\\.service\\analytics\\builder\\builder.js",
+          "enable": false,
+          "params": {}
+        }
+      ]
+    }
+  },
+  "builder-options": {
+    "configID": "a1c489",
+    "services": [
+      {
+        "service_id": "235",
+        "service_component_name": "service-analytics",
+        "builder": "C:\\Users\\Admin\\.CocosCreator\\.service\\analytics\\builder\\builder.js",
+        "enable": false,
+        "params": {}
+      }
+    ]
+  }
+}

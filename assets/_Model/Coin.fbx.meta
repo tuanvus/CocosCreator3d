@@ -1,0 +1,97 @@
+{
+  "ver": "2.3.0",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "92856923-c9e3-4c13-aee1-22d5670a056a",
+  "files": [],
+  "subMetas": {
+    "0fa12": {
+      "importer": "gltf-mesh",
+      "uuid": "92856923-c9e3-4c13-aee1-22d5670a056a@0fa12",
+      "displayName": "",
+      "id": "0fa12",
+      "name": "Coin_Material0.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "09d47": {
+      "importer": "gltf-material",
+      "uuid": "92856923-c9e3-4c13-aee1-22d5670a056a@09d47",
+      "displayName": "",
+      "id": "09d47",
+      "name": "XpDropOrange.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "b789e": {
+      "importer": "gltf-material",
+      "uuid": "92856923-c9e3-4c13-aee1-22d5670a056a@b789e",
+      "displayName": "",
+      "id": "b789e",
+      "name": "XpDropOrange2.material",
+      "userData": {
+        "gltfIndex": 1
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "4b8b9": {
+      "importer": "gltf-scene",
+      "uuid": "92856923-c9e3-4c13-aee1-22d5670a056a@4b8b9",
+      "displayName": "",
+      "id": "4b8b9",
+      "name": "Coin.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "legacyFbxImporter": false,
+    "allowMeshDataAccess": true,
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "redirect": "92856923-c9e3-4c13-aee1-22d5670a056a@4b8b9",
+    "assetFinder": {
+      "meshes": [
+        "92856923-c9e3-4c13-aee1-22d5670a056a@0fa12"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "92856923-c9e3-4c13-aee1-22d5670a056a@09d47",
+        "92856923-c9e3-4c13-aee1-22d5670a056a@b789e"
+      ],
+      "scenes": [
+        "92856923-c9e3-4c13-aee1-22d5670a056a@4b8b9"
+      ]
+    }
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "ver": "2.3.0",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "23f5eeaa-f0b5-4321-9ed9-2b573c4dd793",
+  "files": [],
+  "subMetas": {
+    "a62fe": {
+      "importer": "gltf-mesh",
+      "uuid": "23f5eeaa-f0b5-4321-9ed9-2b573c4dd793@a62fe",
+      "displayName": "",
+      "id": "a62fe",
+      "name": "Scene.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "4442f": {
+      "importer": "gltf-material",
+      "uuid": "23f5eeaa-f0b5-4321-9ed9-2b573c4dd793@4442f",
+      "displayName": "",
+      "id": "4442f",
+      "name": "NewXpDrop.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "b9153": {
+      "importer": "gltf-scene",
+      "uuid": "23f5eeaa-f0b5-4321-9ed9-2b573c4dd793@b9153",
+      "displayName": "",
+      "id": "b9153",
+      "name": "Capsule.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "legacyFbxImporter": false,
+    "allowMeshDataAccess": true,
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "redirect": "23f5eeaa-f0b5-4321-9ed9-2b573c4dd793@b9153",
+    "assetFinder": {
+      "meshes": [
+        "23f5eeaa-f0b5-4321-9ed9-2b573c4dd793@a62fe"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "23f5eeaa-f0b5-4321-9ed9-2b573c4dd793@4442f"
+      ],
+      "scenes": [
+        "23f5eeaa-f0b5-4321-9ed9-2b573c4dd793@b9153"
+      ]
+    }
+  }
+}

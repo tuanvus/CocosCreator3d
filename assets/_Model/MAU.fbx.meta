@@ -1,0 +1,80 @@
+{
+  "ver": "2.3.0",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "6d98f92f-eaa2-4af4-98bd-c48540981810",
+  "files": [],
+  "subMetas": {
+    "13353": {
+      "importer": "gltf-scene",
+      "uuid": "6d98f92f-eaa2-4af4-98bd-c48540981810@13353",
+      "displayName": "",
+      "id": "13353",
+      "name": "MAU.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "a62fe": {
+      "importer": "gltf-mesh",
+      "uuid": "6d98f92f-eaa2-4af4-98bd-c48540981810@a62fe",
+      "displayName": "",
+      "id": "a62fe",
+      "name": "Scene.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "e8761": {
+      "importer": "gltf-material",
+      "uuid": "6d98f92f-eaa2-4af4-98bd-c48540981810@e8761",
+      "displayName": "",
+      "id": "e8761",
+      "name": "NewXpDrop_3.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "legacyFbxImporter": false,
+    "allowMeshDataAccess": true,
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "redirect": "6d98f92f-eaa2-4af4-98bd-c48540981810@13353",
+    "assetFinder": {
+      "meshes": [
+        "6d98f92f-eaa2-4af4-98bd-c48540981810@a62fe"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "6d98f92f-eaa2-4af4-98bd-c48540981810@e8761"
+      ],
+      "scenes": [
+        "6d98f92f-eaa2-4af4-98bd-c48540981810@13353"
+      ]
+    }
+  }
+}

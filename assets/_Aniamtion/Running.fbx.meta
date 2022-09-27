@@ -1,0 +1,101 @@
+{
+  "ver": "2.3.0",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "043a3911-f650-46bc-ba67-aab8deb0901f",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "93ddd": {
+      "importer": "gltf-mesh",
+      "uuid": "043a3911-f650-46bc-ba67-aab8deb0901f@93ddd",
+      "displayName": "",
+      "id": "93ddd",
+      "name": "mixamo:Player_1.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f0865": {
+      "importer": "gltf-animation",
+      "uuid": "043a3911-f650-46bc-ba67-aab8deb0901f@f0865",
+      "displayName": "",
+      "id": "f0865",
+      "name": "running.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 0.6333333253860474
+        },
+        "events": []
+      },
+      "ver": "1.0.16",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "3c231": {
+      "importer": "gltf-scene",
+      "uuid": "043a3911-f650-46bc-ba67-aab8deb0901f@3c231",
+      "displayName": "",
+      "id": "3c231",
+      "name": "Running.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "legacyFbxImporter": false,
+    "allowMeshDataAccess": true,
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "mixamo.com",
+        "duration": 0.6333333253860474,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "running",
+            "from": 0,
+            "to": 0.6333333253860474,
+            "wrapMode": 2
+          }
+        ]
+      }
+    ],
+    "redirect": "043a3911-f650-46bc-ba67-aab8deb0901f@3c231",
+    "assetFinder": {
+      "meshes": [
+        "043a3911-f650-46bc-ba67-aab8deb0901f@93ddd"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "043a3911-f650-46bc-ba67-aab8deb0901f@3c231"
+      ]
+    }
+  }
+}

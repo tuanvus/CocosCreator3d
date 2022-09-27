@@ -1,0 +1,167 @@
+{
+  "ver": "2.3.0",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "66d97b62-4569-4b43-b507-4984bae98f23",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "a62fe": {
+      "importer": "gltf-mesh",
+      "uuid": "66d97b62-4569-4b43-b507-4984bae98f23@a62fe",
+      "displayName": "",
+      "id": "a62fe",
+      "name": "Scene.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "daef5": {
+      "importer": "gltf-animation",
+      "uuid": "66d97b62-4569-4b43-b507-4984bae98f23@daef5",
+      "displayName": "",
+      "id": "daef5",
+      "name": "GemAnim.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 2.25
+        },
+        "events": []
+      },
+      "ver": "1.0.16",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "fd73d": {
+      "importer": "gltf-embeded-image",
+      "uuid": "66d97b62-4569-4b43-b507-4984bae98f23@fd73d",
+      "displayName": "",
+      "id": "fd73d",
+      "name": "DiffuseColor_Texture.image",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".json",
+        ".png"
+      ],
+      "subMetas": {}
+    },
+    "4f17a": {
+      "importer": "texture",
+      "uuid": "66d97b62-4569-4b43-b507-4984bae98f23@4f17a",
+      "displayName": "",
+      "id": "4f17a",
+      "name": "DiffuseColor_Texture.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "66d97b62-4569-4b43-b507-4984bae98f23@fd73d"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "8f1d9": {
+      "importer": "gltf-material",
+      "uuid": "66d97b62-4569-4b43-b507-4984bae98f23@8f1d9",
+      "displayName": "",
+      "id": "8f1d9",
+      "name": "XpDropDiffuse.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "9b5ce": {
+      "importer": "gltf-scene",
+      "uuid": "66d97b62-4569-4b43-b507-4984bae98f23@9b5ce",
+      "displayName": "",
+      "id": "9b5ce",
+      "name": "Magnet.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "DiffuseColor_Texture",
+        "uri": "66d97b62-4569-4b43-b507-4984bae98f23@fd73d"
+      }
+    ],
+    "legacyFbxImporter": false,
+    "allowMeshDataAccess": true,
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "GemAnim",
+        "duration": 2.25,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "GemAnim",
+            "from": 0,
+            "to": 2.25,
+            "wrapMode": 2
+          }
+        ]
+      }
+    ],
+    "redirect": "66d97b62-4569-4b43-b507-4984bae98f23@9b5ce",
+    "assetFinder": {
+      "meshes": [
+        "66d97b62-4569-4b43-b507-4984bae98f23@a62fe"
+      ],
+      "skeletons": [],
+      "textures": [
+        "66d97b62-4569-4b43-b507-4984bae98f23@4f17a"
+      ],
+      "materials": [
+        "66d97b62-4569-4b43-b507-4984bae98f23@8f1d9"
+      ],
+      "scenes": [
+        "66d97b62-4569-4b43-b507-4984bae98f23@9b5ce"
+      ]
+    }
+  }
+}

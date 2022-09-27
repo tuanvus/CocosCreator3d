@@ -1,0 +1,174 @@
+{
+  "ver": "2.3.0",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "bb7269f5-a022-42de-9a1d-67007682f755",
+  "files": [],
+  "subMetas": {
+    "a62fe": {
+      "importer": "gltf-mesh",
+      "uuid": "bb7269f5-a022-42de-9a1d-67007682f755@a62fe",
+      "displayName": "",
+      "id": "a62fe",
+      "name": "Scene.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "fd73d": {
+      "importer": "gltf-embeded-image",
+      "uuid": "bb7269f5-a022-42de-9a1d-67007682f755@fd73d",
+      "displayName": "",
+      "id": "fd73d",
+      "name": "DiffuseColor_Texture.image",
+      "userData": {
+        "gltfIndex": 0,
+        "compressSettings": {
+          "useCompressTexture": true
+        }
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".json",
+        ".png"
+      ],
+      "subMetas": {}
+    },
+    "4f17a": {
+      "importer": "texture",
+      "uuid": "bb7269f5-a022-42de-9a1d-67007682f755@4f17a",
+      "displayName": "",
+      "id": "4f17a",
+      "name": "DiffuseColor_Texture.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "bb7269f5-a022-42de-9a1d-67007682f755@fd73d"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "a60f1": {
+      "importer": "gltf-material",
+      "uuid": "bb7269f5-a022-42de-9a1d-67007682f755@a60f1",
+      "displayName": "",
+      "id": "a60f1",
+      "name": "grass2.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "7621e": {
+      "importer": "gltf-scene",
+      "uuid": "bb7269f5-a022-42de-9a1d-67007682f755@7621e",
+      "displayName": "",
+      "id": "7621e",
+      "name": "Ground.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "DiffuseColor_Texture",
+        "uri": "bb7269f5-a022-42de-9a1d-67007682f755@fd73d"
+      }
+    ],
+    "legacyFbxImporter": false,
+    "allowMeshDataAccess": true,
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "redirect": "bb7269f5-a022-42de-9a1d-67007682f755@7621e",
+    "assetFinder": {
+      "meshes": [
+        "bb7269f5-a022-42de-9a1d-67007682f755@a62fe"
+      ],
+      "skeletons": [],
+      "textures": [
+        "bb7269f5-a022-42de-9a1d-67007682f755@4f17a"
+      ],
+      "materials": [
+        "bb7269f5-a022-42de-9a1d-67007682f755@a60f1"
+      ],
+      "scenes": [
+        "bb7269f5-a022-42de-9a1d-67007682f755@7621e"
+      ]
+    },
+    "materials": {
+      "bb7269f5-a022-42de-9a1d-67007682f755@a60f1": {
+        "__type__": "cc.Material",
+        "_name": "",
+        "_objFlags": 0,
+        "_native": "",
+        "_effectAsset": {
+          "__uuid__": "bf4078d6-d2d7-4073-83bb-cd6f1802e880",
+          "__expectedType__": "cc.EffectAsset"
+        },
+        "_techIdx": 0,
+        "_defines": [
+          {
+            "USE_TEXTURE": true
+          }
+        ],
+        "_states": [
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          }
+        ],
+        "_props": [
+          {
+            "mainTexture": {
+              "__uuid__": "bb7269f5-a022-42de-9a1d-67007682f755@4f17a",
+              "__expectedType__": "cc.Texture2D"
+            },
+            "tilingOffset": {
+              "__type__": "cc.Vec4",
+              "x": 350,
+              "y": 350,
+              "z": 0,
+              "w": 0
+            }
+          }
+        ]
+      }
+    }
+  }
+}

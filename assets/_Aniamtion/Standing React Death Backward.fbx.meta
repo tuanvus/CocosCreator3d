@@ -1,0 +1,101 @@
+{
+  "ver": "2.3.0",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "177a9c1e-0e69-4339-b828-5b1c2032c3d7",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "93ddd": {
+      "importer": "gltf-mesh",
+      "uuid": "177a9c1e-0e69-4339-b828-5b1c2032c3d7@93ddd",
+      "displayName": "",
+      "id": "93ddd",
+      "name": "mixamo:Player_1.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "b4251": {
+      "importer": "gltf-animation",
+      "uuid": "177a9c1e-0e69-4339-b828-5b1c2032c3d7@b4251",
+      "displayName": "",
+      "id": "b4251",
+      "name": "die.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 3.633333444595337
+        },
+        "events": []
+      },
+      "ver": "1.0.16",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "62fcd": {
+      "importer": "gltf-scene",
+      "uuid": "177a9c1e-0e69-4339-b828-5b1c2032c3d7@62fcd",
+      "displayName": "",
+      "id": "62fcd",
+      "name": "Standing React Death Backward.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "legacyFbxImporter": false,
+    "allowMeshDataAccess": true,
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "mixamo.com",
+        "duration": 3.633333444595337,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "die",
+            "from": 0,
+            "to": 3.633333444595337,
+            "wrapMode": 2
+          }
+        ]
+      }
+    ],
+    "redirect": "177a9c1e-0e69-4339-b828-5b1c2032c3d7@62fcd",
+    "assetFinder": {
+      "meshes": [
+        "177a9c1e-0e69-4339-b828-5b1c2032c3d7@93ddd"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "177a9c1e-0e69-4339-b828-5b1c2032c3d7@62fcd"
+      ]
+    }
+  }
+}

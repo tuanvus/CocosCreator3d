@@ -1,0 +1,112 @@
+{
+  "__version__": "1.0.0",
+  "current-scene": "d92ce305-baf0-49e4-9ca0-96bcfbc189fe",
+  "gizmos-infos": {
+    "is2D": false,
+    "is3DIcon": false,
+    "iconSize": 2,
+    "gridVisible": true,
+    "gridColor": [
+      150,
+      150,
+      150,
+      255
+    ],
+    "isIconGizmo3D": false,
+    "iconGizmoSize": 2,
+    "isGridVisible": true
+  },
+  "float-window": {
+    "position": {
+      "cc": {
+        "Camera": {
+          "dock": false,
+          "top": null,
+          "bottom": 10,
+          "left": null,
+          "right": 10
+        }
+      }
+    }
+  },
+  "camera": {
+    "fov": 45,
+    "far": 10000,
+    "near": 0.01,
+    "color": [
+      48,
+      48,
+      48,
+      255
+    ],
+    "wheelSpeed": 0.01,
+    "wanderSpeed": 10,
+    "enableAcceleration": true,
+    "far2D": 10000,
+    "near2D": 1,
+    "wheelSpeed2D": 6
+  },
+  "camera-infos": {
+    "f46876e4-e81b-4931-b493-6d367be385e7": {
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "viewCenter": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "d92ce305-baf0-49e4-9ca0-96bcfbc189fe": {
+      "position": {
+        "x": 34.81928083753727,
+        "y": 77.21105208786554,
+        "z": -7.50677179461793
+      },
+      "rotation": {
+        "x": -0.33854065951125073,
+        "y": 0.6561085157902422,
+        "z": 0.42246262460540823,
+        "w": 0.5257729245375069
+      },
+      "viewCenter": {
+        "x": 1.5365958076105706,
+        "y": 2.192440334591572,
+        "z": -0.07570087172164774
+      }
+    },
+    "c73449ec-6977-498c-8159-4447b86bbb46": {
+      "position": {
+        "x": 169.37699403212366,
+        "y": 137.3347472125036,
+        "z": 1248.2715860734452
+      },
+      "rotation": {
+        "x": -0.006936217649124225,
+        "y": 0.019766076421799117,
+        "z": 0.0001371319000704617,
+        "w": 0.9997805620747254
+      },
+      "viewCenter": {
+        "x": 120.00000000000006,
+        "y": 120,
+        "z": 0
+      }
+    }
+  },
+  "camera-uuids": [
+    "f46876e4-e81b-4931-b493-6d367be385e7"
+  ],
+  "game-view": {
+    "scaleValue": 42,
+    "sliderValue": 18
+  }
+}

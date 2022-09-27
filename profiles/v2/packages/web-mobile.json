@@ -1,0 +1,18 @@
+{
+  "common": {
+    "outputName": "web-mobile",
+    "polyfills": {
+      "asyncFunctions": true,
+      "coreJs": true
+    },
+    "mainBundleCompressionType": "merge_dep",
+    "platform": "web-mobile",
+    "scenes": [
+      {
+        "url": "db://assets/Model3DText.scene",
+        "uuid": "d92ce305-baf0-49e4-9ca0-96bcfbc189fe",
+        "inBundle": false
+      }
+    ]
+  }
+}

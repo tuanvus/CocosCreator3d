@@ -1,0 +1,9 @@
+{
+  "options": {
+    "web-mobile": {
+      "isPlayable": true,
+      "adNetwork": "mintegral",
+      "__version__": "1.2.3"
+    }
+  }
+}
